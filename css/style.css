@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 3, 59);
+    color: white;
+    padding: 20px 40px;
+}
+
+.logo h1 {
+    padding-bottom: 10px;
+    color: white;
+}
+
+.logo img {
+    width: 60px;
+    vertical-align: middle;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: rgb(228, 239, 239);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 10px;
+    gap: 25px;
+    background-color: rgb(242, 245, 247);
+    border-radius: 20px;
+}
+
+.hero-image img {
+    width: 400px;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.hero-text {
+    margin-left: 30px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    margin-bottom: 30px;
+}
+
+.hero button {
+    padding: 20px 40px;
+    background-color: rgb(49, 49, 110);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: rgb(19, 19, 109);
+    transform: scale(1.05);
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.feature {
+    flex: 1 1 250px;
+    background-color: rgb(204, 215, 223);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease, transform 0.3s ease;
+}
+
+.feature:hover {
+    background-color: rgb(242, 245, 247);
+    transform: scale(1.05);
+}
+
+/* Product Section */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.product-card {
+    flex: 1 1 250px;
+    background-color: rgb(204, 215, 223);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease, transform 0.3s ease;
+}
+
+.product-card:hover {
+    background-color: white;
+    transform: scale(1.03);
+}
+
+.product-card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    /* it just pop's out */
+    border-radius: 10px;
+}
+
+.ourproducts{
+    margin-top: 20px;
+}
+
+
+
+.up-footer{
+     background-color: rgb(54, 54, 167);
+
+}
+.email-button{
+    margin-top: 10px;
+     display: flex;
+     justify-content: center;
+     gap: 5px;
+}
+input{
+    width: 180px;
+    padding: 8px;
+      border: 1px solid white;
+    border-radius: 2px;
+}
+button{
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+
+footer {
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(3, 3, 59);
+    color: aliceblue;
+    padding: 30px;
+    
+   /*  margin-top: 50px; */
+   
+}
